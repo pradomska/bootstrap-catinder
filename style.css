@@ -1,0 +1,59 @@
+.gradient-background {
+	background: linear-gradient(-210deg, #23a6d5, #ba3953, #ee7752);
+	background-size: 170% 170%;
+	animation: gradient 12s ease infinite;
+	height: 70vh;
+}
+ 
+@keyframes gradient  {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 150px;
+  width: 115px;
+}
+
+#testimonial {
+	font-size: 30px;
+	font-family: 'Source Code Pro', monospace;
+}
+
+#features p {
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+#features h3 {
+	font-family: 'Source Code Pro', monospace;
+}
+
+.pricing-header h1 {
+	font-size: 40px;
+	font-family: 'Source Code Pro', monospace;
+}
+
+#pricing .text-body-secondary {
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+#pricing h4 {
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+#pricing li {
+	font-family: 'IBM Plex Mono', monospace;
+}
